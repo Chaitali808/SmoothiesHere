@@ -1,0 +1,149 @@
+.side-item {
+  align-self: stretch;
+  height: 768px;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #fff, #e7e7e7);
+  display: none;
+}
+.menu-panel-child {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  backdrop-filter: blur(62.5px);
+  border-radius: 50%;
+  background-color: #fb1e6e;
+  border: 0 solid #fff;
+  box-sizing: border-box;
+  width: 107px;
+  z-index: 2;
+}
+.fresh-smoothie1 {
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  display: inline-block;
+  width: 109px;
+  height: 51px;
+  text-shadow: 0.5px 0 0#fff, 0 0.5px 0#fff, -0.5px 0 0#fff, 0-0.5px 0#fff;
+  z-index: 3;
+}
+.menu-panel {
+  width: 125px;
+  height: 89px;
+  position: relative;
+}
+.a-icon1 {
+  position: absolute;
+  width: calc(100% - 1.7px);
+  top: 233.9px;
+  right: 1.2px;
+  left: 0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 79.2px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.ch-icon1,
+.png-transparent-smoothie-milks-icon1 {
+  position: absolute;
+  top: 496px;
+  left: 10.7px;
+  width: 62.7px;
+  height: 74.2px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.png-transparent-smoothie-milks-icon1 {
+  top: 412.7px;
+  left: 2.4px;
+  width: 72.3px;
+  height: 72.7px;
+}
+.k-icon1 {
+  width: calc(100% - 4.4px);
+  top: 323.7px;
+  right: 4.4px;
+  left: 0;
+  height: 74px;
+  cursor: pointer;
+}
+.b-icon1,
+.k-icon1,
+.m-icon1,
+.s3-icon1 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.s3-icon1 {
+  width: calc(100% - 3.1px);
+  top: 154.4px;
+  right: 1.2px;
+  left: 1.9px;
+  height: 79.6px;
+  cursor: pointer;
+  z-index: 1;
+}
+.b-icon1,
+.m-icon1 {
+  width: calc(100% - 4.5px);
+  top: 73.6px;
+  right: 3.5px;
+  left: 1px;
+  height: 80.6px;
+}
+.b-icon1 {
+  width: calc(100% - 3.3px);
+  top: 0;
+  right: 2.3px;
+  height: 73.8px;
+  cursor: pointer;
+  z-index: 1;
+}
+.linear1 {
+  height: 570.2px;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.side1,
+.sub-menu-panel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sub-menu-panel {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 15px 0 17px;
+}
+.side1 {
+  width: 107px;
+  background: radial-gradient(50% 50%at 50% 50%, #fff, #e7e7e7);
+  flex-direction: column;
+  padding: 45px 0 24.8px;
+  box-sizing: border-box;
+  gap: 39px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Noto Sans Carian";
+}
+@media screen and (max-width: 750px) {
+  .side1 {
+    display: none;
+    padding-top: 29px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fresh-smoothie1 {
+    font-size: 16px;
+  }
+}

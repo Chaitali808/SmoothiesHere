@@ -1,0 +1,59 @@
+.icon,
+.icon1,
+.pizza-rotator-icon {
+  position: absolute;
+  object-fit: contain;
+}
+.icon {
+  top: 271px;
+  left: 97.5px;
+  width: 129px;
+  height: 96px;
+  z-index: 1;
+}
+.icon1,
+.pizza-rotator-icon {
+  top: 588px;
+  left: 92.5px;
+  width: 99.2px;
+  height: 110.2px;
+}
+.pizza-rotator-icon {
+  top: -405.2px;
+  left: 0;
+  width: 2167.3px;
+  height: 1836.7px;
+  z-index: 2;
+}
+.parent {
+  height: 100%;
+  width: 590.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.header {
+  width: 100%;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #d07ca1 26%, #faf3f6);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 58px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .header {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .header {
+    gap: 29px;
+  }
+}

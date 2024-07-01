@@ -1,0 +1,153 @@
+.frame-child {
+  align-self: stretch;
+  height: 768px;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #fff, #e7e7e7);
+  display: none;
+}
+.content-wrapper-child {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  backdrop-filter: blur(62.5px);
+  border-radius: 50%;
+  background-color: #fb1e6e;
+  border: 0 solid #fff;
+  box-sizing: border-box;
+  width: 107px;
+  z-index: 1;
+}
+.fresh-smoothie {
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  display: inline-block;
+  width: 109px;
+  height: 51px;
+  text-shadow: 0.5px 0 0#fff, 0 0.5px 0#fff, -0.5px 0 0#fff, 0-0.5px 0#fff;
+  z-index: 2;
+}
+.content-wrapper {
+  width: 125px;
+  height: 89px;
+  position: relative;
+}
+.a-icon {
+  width: calc(100% - 2px);
+  top: 233.9px;
+  right: 1.5px;
+  left: 0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 79.2px;
+}
+.a-icon,
+.ch-icon,
+.png-transparent-smoothie-milks-icon {
+  position: absolute;
+  object-fit: contain;
+  cursor: pointer;
+}
+.ch-icon {
+  top: 496px;
+  left: 10.7px;
+  width: 62.7px;
+  height: 74.2px;
+}
+.png-transparent-smoothie-milks-icon {
+  width: calc(100% - 2.7px);
+  top: 412.7px;
+  right: 0.3px;
+  left: 2.4px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 72.7px;
+}
+.k-icon {
+  width: calc(100% - 4.7px);
+  top: 323.7px;
+  right: 4.7px;
+  left: 0;
+  height: 74px;
+  cursor: pointer;
+}
+.b-icon,
+.k-icon,
+.m-icon,
+.s3-icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.s3-icon {
+  width: calc(100% - 3.4px);
+  top: 154.4px;
+  right: 1.5px;
+  left: 1.9px;
+  height: 79.6px;
+  cursor: pointer;
+  z-index: 1;
+}
+.b-icon,
+.m-icon {
+  left: 1px;
+}
+.m-icon {
+  width: calc(100% - 4.8px);
+  top: 73.6px;
+  right: 3.8px;
+  height: 80.6px;
+  cursor: pointer;
+}
+.b-icon {
+  width: calc(100% - 3.6px);
+  top: 0;
+  right: 2.6px;
+  height: 73.8px;
+  z-index: 1;
+}
+.linear {
+  height: 570.2px;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.rectangle-parent,
+.smoothie-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.smoothie-list {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 15px 0 17px;
+}
+.rectangle-parent {
+  width: 107px;
+  background: radial-gradient(50% 50%at 50% 50%, #fff, #e7e7e7);
+  flex-direction: column;
+  padding: 46px 0 24.8px;
+  box-sizing: border-box;
+  gap: 38px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Noto Sans Carian";
+}
+@media screen and (max-width: 725px) {
+  .rectangle-parent {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fresh-smoothie {
+    font-size: 16px;
+  }
+}

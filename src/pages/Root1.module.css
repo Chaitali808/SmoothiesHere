@@ -1,0 +1,138 @@
+.pizza-rotator-icon1 {
+  height: 2871.7px;
+  width: 2835px;
+  position: absolute;
+  margin: 0 !important;
+  right: -1847.7px;
+  bottom: -1126.2px;
+  object-fit: contain;
+  z-index: 1;
+}
+.home1,
+.speciality1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+}
+.home1 {
+  width: 116.8px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.speciality1 {
+  min-width: 116.8px;
+}
+.speciality-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+}
+.about-us1 {
+  white-space: nowrap;
+}
+.about-us1,
+.contact1 {
+  text-decoration: none;
+  width: 116.8px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about-us-contact {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 11.2px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+.about-us-contact,
+.description,
+.navigation-items {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigation-items {
+  width: 516.8px;
+  justify-content: flex-start;
+  gap: 0.2px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+.description {
+  width: 1047px;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.header-panel,
+.home-title,
+.root1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.header-panel {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 79px;
+  max-width: 100%;
+}
+.home-title,
+.root1 {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.home-title {
+  flex: 1;
+  flex-direction: column;
+  padding: 90px 0 0;
+  max-width: calc(100% - 165px);
+}
+.root1 {
+  width: 100%;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #ffda1a 18.57%, #faf3f6 93.5%);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 28px 0 0;
+  gap: 58px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .header-panel {
+    gap: 39px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .description {
+    display: none;
+  }
+  .header-panel {
+    gap: 20px;
+  }
+  .home-title,
+  .root1 {
+    box-sizing: border-box;
+  }
+  .home-title {
+    padding-top: 58px;
+    max-width: 100%;
+  }
+  .root1 {
+    gap: 29px;
+    padding-left: 28px;
+  }
+}

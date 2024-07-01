@@ -1,0 +1,239 @@
+.home3,
+.speciality3 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+}
+.home3 {
+  width: 116.8px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.speciality3 {
+  min-width: 114px;
+}
+.speciality-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+}
+.about-us3 {
+  white-space: nowrap;
+}
+.about-us3,
+.contact3 {
+  text-decoration: none;
+  width: 116.8px;
+  position: relative;
+  line-height: 21.6px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about-contact1,
+.navigation1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.about-contact1 {
+  flex: 1;
+  gap: 11.2px;
+}
+.navigation1 {
+  width: 536.8px;
+  padding: 0 0 0 20px;
+  box-sizing: border-box;
+  gap: 0.2px;
+}
+.select-your-favourite {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.hero-title {
+  width: 517px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.apple-orchard-delight,
+.blueberry-lavender-smoothie,
+.choco-bliss-smoothie,
+.golden-mango-bliss,
+.kiwi-mint-breeze,
+.raspberry-radiance-smoothie,
+.strawberry-sunshine-smoothie {
+  margin: 0;
+}
+.blueberry-lavender-smoothie-container {
+  margin: 0;
+  width: 777px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 104%;
+}
+.hero-subtitle,
+.hero-title-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hero-subtitle {
+  height: 53px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  font-size: 35px;
+  font-family: "Cinzel Decorative";
+}
+.hero-title-parent {
+  flex-direction: column;
+  gap: 20px;
+}
+.bask-in-the1,
+.blank-line10,
+.blank-line11,
+.blank-line6,
+.blank-line7,
+.blank-line8,
+.blank-line9,
+.delight-in-the1,
+.experience-the-vibrant1,
+.indulge-in-the2,
+.indulge-in-the3,
+.refresh-yourself-with1,
+.savor-the-tropical1 {
+  margin: 0;
+}
+.indulge-in-the-container1 {
+  height: 2499px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.indulge-in-the-serene-harmony-container {
+  height: 330px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hero-description {
+  width: 534px;
+  flex-direction: row;
+  padding: 0 6px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inknut Antiqua";
+}
+.hero-content,
+.hero-content-wrapper,
+.hero-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hero-content {
+  width: 773px;
+  flex-direction: column;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 31px;
+}
+.hero-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: 30px;
+  font-family: "Noto Sans Carian";
+}
+.navigation-parent,
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.navigation-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 79px;
+}
+.page-content {
+  width: 907.8px;
+  align-items: flex-start;
+  padding: 90px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 975px) {
+  .select-your-favourite {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .blueberry-lavender-smoothie-container {
+    font-size: 28px;
+  }
+  .navigation-parent {
+    gap: 39px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .about-contact1 {
+    display: none;
+  }
+  .navigation1 {
+    width: 137px;
+  }
+  .page-content {
+    padding-top: 58px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .select-your-favourite {
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .blueberry-lavender-smoothie-container {
+    font-size: 21px;
+  }
+  .hero-content {
+    gap: 15px;
+  }
+  .navigation-parent {
+    gap: 20px;
+  }
+}

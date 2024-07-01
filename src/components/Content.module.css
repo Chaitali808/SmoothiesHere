@@ -1,0 +1,84 @@
+.select-your-favourite1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.selector-header {
+  width: 517px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.apple-orchard-delight1,
+.blueberry-lavender-smoothie1,
+.choco-bliss-smoothie1,
+.golden-mango-bliss1,
+.kiwi-mint-breeze1,
+.raspberry-radiance-smoothie1,
+.strawberry-sunshine-smoothie1 {
+  margin: 0;
+}
+.blueberry-lavender-smoothie-container1 {
+  margin: 0;
+  width: 777px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 104%;
+}
+.content,
+.smoothie-options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.smoothie-options {
+  align-self: stretch;
+  height: 53px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  font-size: 35px;
+  font-family: "Cinzel Decorative";
+}
+.content {
+  width: 753px;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+  font-family: "Noto Sans Carian";
+}
+@media screen and (max-width: 1050px) {
+  .select-your-favourite1 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .blueberry-lavender-smoothie-container1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .select-your-favourite1 {
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .blueberry-lavender-smoothie-container1 {
+    font-size: 21px;
+  }
+}

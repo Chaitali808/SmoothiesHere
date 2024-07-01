@@ -1,0 +1,50 @@
+.root-item {
+  height: 89px;
+  width: 107px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(62.5px);
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(12, 232, 246, 0.59),
+    rgba(255, 255, 255, 0.78) 92%
+  );
+  border: 0 solid #065b5b;
+  box-sizing: border-box;
+  display: none;
+  z-index: 1;
+}
+.pizza-rotator-icon3 {
+  height: 2439.7px;
+  width: 2538.2px;
+  position: absolute;
+  margin: 0 !important;
+  right: -1710.2px;
+  bottom: -899px;
+  object-fit: contain;
+  z-index: 1;
+}
+.root3 {
+  width: 100%;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #e5cebc 18.57%, #faf3f6 93.5%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 58px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .root3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .root3 {
+    gap: 29px;
+  }
+}

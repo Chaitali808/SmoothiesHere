@@ -1,0 +1,392 @@
+.home,
+.side-icon,
+.speciality {
+  position: relative;
+  flex-shrink: 0;
+}
+.side-icon {
+  height: 79.8px;
+  width: 82.2px;
+  object-fit: contain;
+}
+.home,
+.speciality {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+.home {
+  width: 116.8px;
+  line-height: 21.6px;
+}
+.speciality {
+  height: 21.6px;
+  line-height: 24.8px;
+  min-width: 116.8px;
+  cursor: pointer;
+}
+.speciality-wrapper {
+  width: 154.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+}
+.about-us {
+  white-space: nowrap;
+}
+.about-us,
+.contact {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 21.6px;
+  color: inherit;
+}
+.about-contact,
+.home-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-contact {
+  flex: 1;
+  gap: 11.2px;
+}
+.home-parent {
+  margin: 0;
+  align-self: stretch;
+  gap: 0.2px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 20px;
+  color: #f70e0e;
+  font-family: Vidaloka;
+}
+.frame-wrapper,
+.side-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-wrapper {
+  margin: 0;
+  width: 516.8px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 10.2px;
+}
+.side-parent {
+  width: 858.8px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  gap: 20px;
+}
+.season-special {
+  width: 310px;
+  position: relative;
+  letter-spacing: 0.22em;
+  display: inline-block;
+}
+.smoothies-that {
+  margin: 0;
+}
+.everyone-loves {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 300;
+}
+.smoothies-that-everyone-container {
+  align-self: stretch;
+  height: 117.1px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.blend-your-day {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.blend-your-day-with-flavors-wrapper,
+.smoothies-that-everyone-loves-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blend-your-day-with-flavors-wrapper {
+  width: 384px;
+  flex-direction: row;
+  padding: 0 3px;
+  flex-shrink: 0;
+  margin-top: -1.9px;
+  font-size: 20px;
+  font-family: "Sans Serif Collection";
+}
+.smoothies-that-everyone-loves-parent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 47.7px;
+}
+.button-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 11px 20.2px 6px rgba(245, 15, 154, 0.29);
+  backdrop-filter: blur(11.3px);
+  border-radius: 35.5px;
+  background-color: #ff196c;
+  border: 3px solid #ff005c;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.explore1 {
+  position: absolute;
+  top: 14px;
+  left: 70px;
+  line-height: 28px;
+  display: inline-block;
+  width: 165px;
+  height: 28px;
+  z-index: 1;
+}
+.explore {
+  height: 65px;
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+}
+.explore-wrapper {
+  width: 241px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: #fff;
+}
+.frame-container,
+.frame-group,
+.season-special-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-group {
+  align-self: stretch;
+  gap: 11.4px;
+  max-width: 100%;
+  font-size: 60px;
+  color: #000;
+  font-family: "Signika Negative";
+}
+.frame-container,
+.season-special-parent {
+  flex-shrink: 0;
+}
+.season-special-parent {
+  align-self: stretch;
+  gap: 46.8px;
+  max-width: 100%;
+}
+.frame-container {
+  width: 427px;
+  padding: 71px 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 898px);
+}
+.image-16-icon {
+  position: absolute;
+  top: 131px;
+  left: 25px;
+  width: 401px;
+  height: 455px;
+  object-fit: contain;
+}
+.image-12-icon,
+.image-14-icon,
+.image-15-icon {
+  position: absolute;
+  top: 188.6px;
+  left: 475.2px;
+  width: 267.6px;
+  height: 297.9px;
+  object-fit: contain;
+}
+.image-12-icon,
+.image-14-icon {
+  top: 0;
+  left: 22px;
+  width: 438.4px;
+  height: 470.7px;
+  z-index: 1;
+}
+.image-12-icon {
+  left: 301px;
+  width: 331px;
+  height: 481px;
+  z-index: 2;
+}
+.image-10 {
+  position: absolute;
+  top: 222px;
+  left: 411px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  width: 475px;
+  height: 441px;
+  z-index: 3;
+}
+.image-13-icon {
+  position: absolute;
+  top: 119px;
+  left: 0;
+  width: 779px;
+  height: 444px;
+  object-fit: cover;
+  z-index: 4;
+}
+.images {
+  height: 640px;
+  width: 857px;
+  position: relative;
+  max-width: 100%;
+}
+.frame-parent,
+.main-photo,
+.navigation,
+.navigation-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.main-photo {
+  width: 886px;
+  padding: 0 0 23px;
+  flex-shrink: 0;
+  max-width: calc(100% - 439px);
+}
+.frame-parent,
+.navigation,
+.navigation-inner {
+  max-width: 100%;
+}
+.frame-parent {
+  height: 640px;
+  width: 1276px;
+  padding: 0 0 256px;
+  gap: 12px;
+}
+.navigation,
+.navigation-inner {
+  padding: 0 0 0 21px;
+}
+.navigation {
+  flex-direction: column;
+  padding: 0 0 0 20px;
+  gap: 23.2px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 20px;
+  color: #f70e0e;
+  font-family: Vidaloka;
+}
+.background-icon {
+  width: 147px;
+  height: 84px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.root {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 25px 0 0;
+  box-sizing: border-box;
+  gap: 182px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frame-container {
+    max-width: 100%;
+  }
+  .main-photo {
+    display: none;
+  }
+  .root {
+    gap: 91px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .smoothies-that-everyone-container {
+    font-size: 40px;
+  }
+  .frame-container {
+    display: none;
+  }
+  .main-photo {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-wrapper {
+    display: none;
+  }
+  .side-parent {
+    width: 342px;
+  }
+  .frame-parent {
+    padding-bottom: 166px;
+    box-sizing: border-box;
+  }
+  .root {
+    gap: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .season-special {
+    font-size: 16px;
+  }
+  .smoothies-that-everyone-container {
+    font-size: 30px;
+  }
+  .blend-your-day {
+    font-size: 16px;
+  }
+  .explore1 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .season-special-parent {
+    gap: 23px;
+  }
+  .frame-container {
+    padding-top: 46px;
+    box-sizing: border-box;
+  }
+  .root {
+    gap: 23px;
+  }
+}

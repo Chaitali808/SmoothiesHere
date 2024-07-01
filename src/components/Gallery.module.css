@@ -1,0 +1,175 @@
+.blueberry-image-placeholder {
+  height: 96px;
+  width: 129px;
+  position: absolute;
+  margin: 0 !important;
+  top: -57px;
+  right: 336px;
+  object-fit: contain;
+  z-index: 1;
+}
+.bask-in-the2,
+.blank-line12,
+.blank-line13,
+.blank-line14,
+.blank-line15,
+.blank-line16,
+.blank-line17,
+.delight-in-the2,
+.experience-the-vibrant2,
+.indulge-in-the4,
+.indulge-in-the5,
+.refresh-yourself-with2,
+.savor-the-tropical2 {
+  margin: 0;
+}
+.indulge-in-the-container2 {
+  margin-top: -316px;
+  height: 2499px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.blueberry-paragraph,
+.image-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.blueberry-paragraph {
+  align-self: stretch;
+  height: 330px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.image-row {
+  width: 522px;
+  flex-direction: column;
+  padding: 0 0 52px;
+  box-sizing: border-box;
+  min-width: 522px;
+  min-height: 382px;
+}
+.image-1-icon,
+.placeholder-image-icon {
+  position: absolute;
+  top: 0;
+  left: 69px;
+  width: 200px;
+  height: 123px;
+  object-fit: contain;
+}
+.placeholder-image-icon {
+  top: 24px;
+  left: 0;
+  width: 99.2px;
+  height: 110.2px;
+  z-index: 1;
+}
+.gallery-items {
+  align-self: stretch;
+  height: 134.2px;
+  position: relative;
+}
+.selection-title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 11.8px;
+  box-sizing: border-box;
+  min-width: 175px;
+}
+.image-2-icon {
+  height: 169px;
+  width: 201px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.about-contact2,
+.home-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.about-contact2 {
+  width: 470px;
+  justify-content: center;
+  min-width: 470px;
+  row-gap: 20px;
+}
+.home-button {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.blueberry-description,
+.details-panel,
+.gallery {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.details-panel {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+}
+.blueberry-description,
+.gallery {
+  align-self: stretch;
+}
+.blueberry-description {
+  flex-direction: row;
+  padding: 0 0 0 9px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inknut Antiqua";
+}
+.gallery {
+  flex-direction: column;
+  gap: 31px;
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+  font-family: "Noto Sans Carian";
+}
+@media screen and (max-width: 1050px) {
+  .about-contact2,
+  .image-row {
+    flex: 1;
+  }
+  .home-button {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about-contact2,
+  .image-row {
+    min-width: 100%;
+  }
+  .gallery {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .image-row {
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+  .image-2-icon {
+    flex: 1;
+  }
+  .about-contact2 {
+    flex-wrap: wrap;
+  }
+}

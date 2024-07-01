@@ -1,0 +1,74 @@
+.root-child {
+  height: 89px;
+  width: 107px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(62.5px);
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(12, 232, 246, 0.59),
+    rgba(255, 255, 255, 0.78) 92%
+  );
+  border: 0 solid #065b5b;
+  box-sizing: border-box;
+  display: none;
+  z-index: 1;
+}
+.image-3-icon,
+.image-4-icon,
+.pizza-rotator-icon2 {
+  position: absolute;
+  top: -812px;
+  left: 0;
+  width: 2435.4px;
+  height: 2541.8px;
+  object-fit: contain;
+  z-index: 1;
+}
+.image-3-icon,
+.image-4-icon {
+  top: 567px;
+  left: 406px;
+  width: 176px;
+  height: 168px;
+  z-index: 2;
+}
+.image-3-icon {
+  top: 392px;
+  left: 260px;
+  width: 158px;
+  height: 134.9px;
+}
+.image-carousel {
+  height: 100%;
+  width: 787px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.root2 {
+  width: 100%;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #f43234 18.57%, #faf3f6 93.5%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 58px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .root2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .root2 {
+    gap: 29px;
+  }
+}
